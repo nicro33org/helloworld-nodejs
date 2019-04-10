@@ -22,16 +22,16 @@ pipeline {
       }
       steps {
          echo "TODO - build and push image"
-      }stage('Build and Push Image') {
+      }
+    }
+    stage('Build and Push Image') {
       when {
         beforeAgent true
         branch 'master'
       }
       steps {
         echo "TODO - build and push image"
-        sh 'java -version'
       }
-    }
     }
   }
 }
